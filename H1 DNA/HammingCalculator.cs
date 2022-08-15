@@ -10,6 +10,14 @@ namespace H1_DNA
     {
         public int CalculateHammingDistance(string first, string second)
         {
+            // Here, I could decide to make the method non-case sensitive:
+            // first = first.ToLower();
+            // second = second.ToLower();
+            // 
+            // If the method is not case-sensitive, it can be used to more accurately judge the subjective contents of the inputs (i.e., the intended
+            // meaning of "Hello" and "HEllo" is probably the same).
+            // However, by keeping it non-case sensitive, we can more accurately judge the difference in data from the computers point of view.
+
             int hammeringDistance = 0;
             int shortest = first.Length < second.Length ? first.Length : second.Length; // Find the shortest sequence
             int longest = first.Length > second.Length ? first.Length : second.Length; // Find the  longest sequence
