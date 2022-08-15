@@ -19,6 +19,7 @@ namespace H1_DNA
             // However, by keeping it non-case sensitive, we can more accurately judge the difference in data from the computers point of view.
 
             int hammeringDistance = 0;
+
             int shortest = first.Length < second.Length ? first.Length : second.Length; // Find the shortest sequence
             int longest = first.Length > second.Length ? first.Length : second.Length; // Find the  longest sequence
             
