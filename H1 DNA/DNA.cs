@@ -11,7 +11,7 @@ namespace H1_DNA
         private string sequence;
         
         /// <summary>
-        /// Stores a DNA sequence in an array
+        /// Stores a DNA sequence as a string
         /// </summary>
         public string Sequence
         {
