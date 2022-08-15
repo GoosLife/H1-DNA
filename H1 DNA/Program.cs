@@ -16,7 +16,7 @@ namespace H1_DNA
             Console.WriteLine("Demo DNA sequence #1: " + dna1.Sequence + '\n' + "Demo DNA sequence #2: " + dna2.Sequence + '\n');
             Console.WriteLine("Hamming distance between the DNA sequences: " + hc.CalculateHammingDistance(dna1.Sequence, dna2.Sequence));
 
-            Console.WriteLine("'\nTry it yourself! Enter a sequence: \n");
+            Console.WriteLine("\nTry it yourself! Enter a sequence: \n");
             string input1 = Console.ReadLine();
             Console.WriteLine("Enter another sequence:\n");
             string input2 = Console.ReadLine();
